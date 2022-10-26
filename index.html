@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body onload="load()">
+    <header>
+        <a href="#" class="logo">
+            <img src="images/logo.png">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#home" class="abtn">HOME</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle abtn" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#about">Lorem, ipsum dolor.</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem, ipsum </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Lorem,</a></li>
+                </ul>
+            </li>
+            <li><a href="#filler">FILLER MASTERBATCH</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle abtn " href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    CaCO3
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem, ipsum </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Lorem,</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">BUSINESS ENQUIRY</a></li>
+        </ul>
+
+        <div class="header-icons abtn">
+            <a class="phonenumber"><img src="images/phone-icon.png" alt="" class="header-phone-icon">+91 98363
+                66222</a>
+            <button class="navbutton ">
+                <i class='bx bx-download'></i>
+                DOWNLOAD CATALOGUE
+            </button>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="maincontent container">
+            <h1 class="colourh1">FILLER AND COLOURS</h1>
+            <h1 class="colourh1-1">MASTERBATCH</h1>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="aboutcontainer container-fluid">
+            <div>
+                <h4 class="colouredh4ul">WHO WE ARE</h4>
+                <h2 class="abouth1">Lorem ipsum dolor sit.</h2>
+                <div>
+                    <p class="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullampraesentium atque
+                        voluptatum earum
+                        ducimus autem cupiditate in modi, laudantium nesciunt. Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <p class="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullampraesentium atque
+                        voluptatum earum
+                    </p>
+                    <p class="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullampraesentium atque
+                        voluptatum earum
+                        ducimus autem cupiditate in modi, laudantium nesciunt. Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+                <div class="mixedh4">
+                    <h4 class="mixedh4">Get Free Assessment:
+                        <h4 class="colouredh4"> &nbsp; info@everestpoly.com</h4>
+                </div>
+                <button class="aboutbutton">READ MORE</button>
+            </div>
+            <div class="about-img-container">
+                <div class="video-container">
+                    <div class="video-player">
+                        <button class="video-play-button" onclick="myFunction()" id="videoButton">
+                            <img src="images/play-button.png" alt="" class="play-button-img">
+                        </button>
+                        <video width="100%" autoplay id="myVideo">
+                            <source src="images/Jellyfish - 110877.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <div class="number-counter">
+                        <h1 id='0101' class="number-counter1" data-number="2">0</h1>
+                        <h6>Factories</h6>
+                    </div>
+                    <div class="number-counter">
+                        <h1 id='0102' class="number-counter1" data-number="2">0</h1>
+                        <h6>Countries</h6>
+                    </div>
+                    <div class="number-counter">
+                        <h1 id='0103' class="number-counter1" data-number="2">0</h1>
+                        <h6>Employees</h6>
+                    </div>
+                    <div class="number-counter">
+                        <h1 id='0104' class=" number-counter1" data-number="2">0</h1>
+                        <h6>Metric Tons</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="filler" id="filler">
+        <div class="products-container">
+            <div class="blue-box-img">
+                <img src="images/filler1.png" alt="" class="filler-img">
+                <div class="blue-box-arrow-container">
+                </div>
+            </div>
+            <div class="blue-box">
+                <div class="blue-box-arrow-container">
+                    <button class="blue-box-arrow">
+                        <i class='bx bx-chevron-right arrow'></i>
+                    </button>
+                </div>
+                <div class="blue-box-content-container">
+                    <h5 class="filler-h5">Pe Filler Masterbatch</h5>
+                    <p class="filler-p">Lorem ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Architecto, sit!</p>
+                </div>
+            </div>
+            <div class="blue-box-1">
+                <div>
+                    <h2 class="filler-h2">Our Products</h2>
+                </div>
+                <div class="big-box-content">
+                    <h5 class="filler-h5">Talc Masterbatch</h5>
+                    <p class="filler-p">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Iste, consequuntur.</p>
+                    <div class="blue-box-arrow-container1">
+                        <button class="blue-box-arrow">
+                            <i class='bx bx-chevron-right arrow'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blue-box-img">
+                <img src="images/filler4.png" alt="" class="filler-img">
+            </div>
+            <div class="blue-box">
+                <div class="blue-box-arrow-container">
+                    <button class="blue-box-arrow">
+                        <i class='bx bx-chevron-right arrow'></i>
+                    </button>
+                </div>
+                <div class="blue-box-content-container">
+                    <h5 class="filler-h5">Pe Filler Masterbatch</h5>
+                    <p class="filler-p">Lorem ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Architecto, sit!</p>
+                </div>
+            </div>
+            <div class="blue-box">
+                <div class="blue-box-arrow-container">
+                    <button class="blue-box-arrow">
+                        <i class='bx bx-chevron-right arrow'></i>
+                    </button>
+                </div>
+                <div class="blue-box-content-container">
+                    <h5 class="filler-h5">Pe Filler Masterbatch</h5>
+                    <p class="filler-p">Lorem ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Architecto, sit!</p>
+                </div>
+            </div>
+            <div class="blue-box-img">
+                <img src="images/filler2.png" alt="" class="filler-img">
+            </div>
+            <div class="blue-box">
+                <div class="blue-box-arrow-container">
+                    <button class="blue-box-arrow">
+                        <i class='bx bx-chevron-right arrow'></i>
+                    </button>
+                </div>
+                <div class="blue-box-content-container">
+                    <h5 class="filler-h5">Pe Filler Masterbatch</h5>
+                    <p class="filler-p">Lorem ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Architecto, sit!</p>
+                </div>
+            </div>
+            <div class="blue-box-img">
+                <img src="images/filler5.png" alt="" class="filler-img">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="brand-content1">
+                <div class="colour-h2-container">
+                    <h2 class="colourh2">DISCOVER</h2>
+                    &nbsp;
+                    <h2 class="colourh2-1">OUR</h2>
+                </div>
+                <div>
+                    <h2 class="colourh2-2">BUSINESS</h2>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                    <img src="images/tokopedia-38840.png" alt="" class="brand-logo">
+                </div>
+            </div>
+            <div class="brand-button-container">
+                <button class="brand-arrow" onclick="logo()">
+                    <i class='bx bx-chevron-right arrow-icon'></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid carousel-section">
+        <div class="container-fluid">
+            <h4 class="carousel-h4">Upcoming Events</h4>
+            <div class="carousel-container">
+                <div class="date">
+                    <h1 class="date-h1">MARCH</h1>
+                    <h2 class="date-h2">22, 2022</h2>
+                    <hr class="date-hr">
+                    <h5 class="date-h5">Kolkata</h5>
+                </div>
+                <div class="carousel-1">
+                    <div class="carousel-img-container">
+                        <img src="images/caraosel1.png" alt="" class="carousel-img-1">
+                    </div>
+                    <div class="carousel-content">
+                        <h5 class="carousel-h5">Lorem ipsum dolor sit amet</h5>
+                        <p class="carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Assumenda eum voluptatum, nobis dignissimos facilis 
+                            magnam commodi ad? Dolor, eligendi ducimus! Lorem 
+                            ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="#">
+                            <h4 class="colouredh4ul">READ MORE</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-2">
+                    <div class="gallery js-flickity"
+                    data-flickity-options='{ "wrapAround": true }'>
+                    <div class="gallery-cell2"><img src="images/supliful-QtFbQ2enRGI-unsplash.jpg" alt="" class="carousel-img"></div>
+                    <div class="gallery-cell3"><img src="images/supliful-QtFbQ2enRGI-unsplash.jpg" alt="" class="carousel-img"></div>
+                    <div class="gallery-cell1"><img src="images/supliful-QtFbQ2enRGI-unsplash.jpg" alt="" class="carousel-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-0 border-top">
+                    <div class="col mb-7">
+                        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                            <img src="images/logo.png" alt="" class="brand-logo">
+                        </a>
+                        <p class="footer-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero deserunt nemo similique</p>
+                    </div>
+                    
+                    <div class="col mb-3">
+                        <h5 class="footer-h5">QUICK LINKS</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Home</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>About</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Everest Innovation Pvt. Ltd</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Filler Masterbatch</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Balaji Polyudyog</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col mb-3">
+                        <h5>&nbsp;</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Filler Masterbatch</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>CaCO3 Powder</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>Source of Raw Material
+                                    </p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <p class="footer-p"><i class='bx bx-chevron-right arrow1'></i>World Map</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col mb-3">
+                        <h5 class="footer-h5">GET IN TOUCH</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted ">
+                                    <p class="footer-p1"><i class='bx bx-phone-call callimg footer-icon'></i>+91 98363 66222</p>
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted ">
+                                    <p class="footer-p1"><i class='bx bx-envelope footer-icon'></i>info@everestpoly.com
+                                    </p>
+                                </a></li>
+                        </ul>
+                        <div class="social-icon-container">
+                            <ul class="footer-ul">
+                                <li class="footer-li">
+                                    <a href="#" class="footer-link"><i class='bx bxl-facebook'></i></a>
+                                </li>
+                                <li class="footer-li">
+                                    <a href="#" class="footer-link"><i class='bx bxl-twitter'></i></a>
+                                </li>
+                                <li class="footer-li">
+                                    <a href="#" class="footer-link"><i class='bx bxl-linkedin'></i></a>
+                                </li>
+                                <li class="footer-li">
+                                    <a href="#" class="footer-link"><i class='bx bxl-instagram'></i></a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+                <div class="container- fluid">
+                    <hr>
+                    <div class="copyright py-3">
+                        <p class="footer-p">Copyright © 2022. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+          function animate(obj, initVal, lastVal, duration) {
+             let startTime = null;
+    
+          let currentTime = Date.now();
+    
+          const step = (currentTime ) => {
+          if (!startTime) {
+             startTime = currentTime ;
+          }
+    
+          const progress = Math.min((currentTime - startTime)/ duration, 1);
+    
+          obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
+    
+          if (progress < 1) {
+             window.requestAnimationFrame(step);
+          } else {
+                window.cancelAnimationFrame(window.requestAnimationFrame(step));
+             }
+          };
+             window.requestAnimationFrame(step);
+          }
+          let text1 = document.getElementById('0101');
+          let text2 = document.getElementById('0102');
+          let text3 = document.getElementById('0103');
+          let text4 = document.getElementById('0104');
+          const load = () => {
+             animate(text1, 0, 2, 1000);
+             animate(text2, 0, 60, 7000);
+             animate(text3, 0, 150, 7000);
+             animate(text4, 0, 160, 7000);
+          }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
